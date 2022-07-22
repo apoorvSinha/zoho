@@ -1,0 +1,76 @@
+Jul 22, 2022 11:23:40 AM Base.TestBase initDriver
+INFO: Config file loaded
+Jul 22, 2022 11:23:47 AM Base.TestBase initDriver
+INFO: Chrome driver launched successfully
+Jul 22, 2022 11:23:53 AM Base.TestBase initDriver
+INFO: Navigating to: https://www.zoho.com/
+Jul 22, 2022 11:24:04 AM Base.TestBase click
+INFO: Clicking on: Proxy element for: DefaultElementLocator 'By.linkText: Sign in'
+Jul 22, 2022 11:24:04 AM Base.TestBase type
+INFO: Typing in: [[ChromeDriver: chrome on WINDOWS (4087d75435077b0fc81d0d14021f524e)] -> id: login_id] entered value is: apoorvlifeok@outlook.com
+Jul 22, 2022 11:24:04 AM Base.TestBase click
+INFO: Clicking on: [[ChromeDriver: chrome on WINDOWS (4087d75435077b0fc81d0d14021f524e)] -> xpath: //button[@id='nextbtn']]
+Jul 22, 2022 11:24:04 AM steps.HomePage enterEmail
+INFO: Entered email as apoorvlifeok@outlook.comsuccessfully
+Jul 22, 2022 11:24:45 AM steps.TC01_LogginIn i_enter_my_username_and_password
+INFO: Entered email is valid so password entry can be done
+Jul 22, 2022 11:24:45 AM Base.TestBase type
+INFO: Typing in: [[ChromeDriver: chrome on WINDOWS (4087d75435077b0fc81d0d14021f524e)] -> id: password] entered value is: JUSTdance@96
+Jul 22, 2022 11:24:55 AM Base.TestBase click
+INFO: Clicking on: Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='nextbtn' and @class='btn blue']'
+Jul 22, 2022 11:24:59 AM Base.TestBase initDriver
+INFO: Config file loaded
+Jul 22, 2022 11:25:01 AM Base.TestBase initDriver
+INFO: Chrome driver launched successfully
+Jul 22, 2022 11:25:05 AM Base.TestBase initDriver
+INFO: Navigating to: https://www.zoho.com/
+Jul 22, 2022 11:25:16 AM Base.TestBase click
+INFO: Clicking on: Proxy element for: DefaultElementLocator 'By.linkText: Sign in'
+Jul 22, 2022 11:25:17 AM Base.TestBase type
+INFO: Typing in: [[ChromeDriver: chrome on WINDOWS (b981933211cee1d0a723b54fe5aef754)] -> id: login_id] entered value is: valid
+Jul 22, 2022 11:25:17 AM Base.TestBase click
+INFO: Clicking on: [[ChromeDriver: chrome on WINDOWS (b981933211cee1d0a723b54fe5aef754)] -> xpath: //button[@id='nextbtn']]
+Jul 22, 2022 11:25:17 AM steps.HomePage enterEmail
+INFO: Entered email as validsuccessfully
+Jul 22, 2022 11:25:18 AM steps.TC01_LogginIn i_enter_my_username_and_password
+INFO: Entered email is invalid so password entry not required
+Jul 22, 2022 11:25:21 AM Base.TestBase initDriver
+INFO: Config file loaded
+Jul 22, 2022 11:25:23 AM Base.TestBase initDriver
+INFO: Chrome driver launched successfully
+Jul 22, 2022 11:25:27 AM Base.TestBase initDriver
+INFO: Navigating to: https://www.zoho.com/
+Jul 22, 2022 11:25:38 AM Base.TestBase click
+INFO: Clicking on: Proxy element for: DefaultElementLocator 'By.linkText: Sign in'
+Jul 22, 2022 11:25:38 AM Base.TestBase type
+INFO: Typing in: [[ChromeDriver: chrome on WINDOWS (cab7c21b6ea6ca2a1ffe961ee9195942)] -> id: login_id] entered value is: invalid
+Jul 22, 2022 11:25:39 AM Base.TestBase click
+INFO: Clicking on: [[ChromeDriver: chrome on WINDOWS (cab7c21b6ea6ca2a1ffe961ee9195942)] -> xpath: //button[@id='nextbtn']]
+Jul 22, 2022 11:25:39 AM steps.HomePage enterEmail
+INFO: Entered email as invalidsuccessfully
+Jul 22, 2022 11:26:19 AM steps.TC01_LogginIn i_enter_my_username_and_password
+INFO: Entered email is valid so password entry can be done
+Jul 22, 2022 11:26:19 AM Base.TestBase type
+INFO: Typing in: [[ChromeDriver: chrome on WINDOWS (cab7c21b6ea6ca2a1ffe961ee9195942)] -> id: password] entered value is: valid
+Jul 22, 2022 11:26:20 AM Base.TestBase click
+INFO: Clicking on: [[ChromeDriver: chrome on WINDOWS (cab7c21b6ea6ca2a1ffe961ee9195942)] -> xpath: //button[@id='nextbtn' and @class='btn blue']]
+Jul 22, 2022 11:26:23 AM Base.TestBase initDriver
+INFO: Config file loaded
+Jul 22, 2022 11:26:25 AM Base.TestBase initDriver
+INFO: Chrome driver launched successfully
+Jul 22, 2022 11:26:30 AM Base.TestBase initDriver
+INFO: Navigating to: https://www.zoho.com/
+Jul 22, 2022 11:26:41 AM Base.TestBase click
+INFO: Clicking on: Proxy element for: DefaultElementLocator 'By.linkText: Sign in'
+Jul 22, 2022 11:26:42 AM Base.TestBase type
+INFO: Typing in: [[ChromeDriver: chrome on WINDOWS (aef01bab34e4a708d584caf7d46044e5)] -> id: login_id] entered value is: invalid
+Jul 22, 2022 11:26:42 AM Base.TestBase click
+INFO: Clicking on: [[ChromeDriver: chrome on WINDOWS (aef01bab34e4a708d584caf7d46044e5)] -> xpath: //button[@id='nextbtn']]
+Jul 22, 2022 11:26:42 AM steps.HomePage enterEmail
+INFO: Entered email as invalidsuccessfully
+Jul 22, 2022 11:27:22 AM steps.TC01_LogginIn i_enter_my_username_and_password
+INFO: Entered email is valid so password entry can be done
+Jul 22, 2022 11:27:22 AM Base.TestBase type
+INFO: Typing in: [[ChromeDriver: chrome on WINDOWS (aef01bab34e4a708d584caf7d46044e5)] -> id: password] entered value is: invalid
+Jul 22, 2022 11:27:23 AM Base.TestBase click
+INFO: Clicking on: [[ChromeDriver: chrome on WINDOWS (aef01bab34e4a708d584caf7d46044e5)] -> xpath: //button[@id='nextbtn' and @class='btn blue']]
