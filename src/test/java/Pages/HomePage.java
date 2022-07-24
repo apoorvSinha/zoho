@@ -1,4 +1,4 @@
-package steps;
+package Pages;
 
 import static org.junit.Assert.assertEquals;
 
