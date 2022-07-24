@@ -1,4 +1,4 @@
-package steps;
+package Pages;
 
 import Base.TestBase;
 import objects.ContactPageObject;

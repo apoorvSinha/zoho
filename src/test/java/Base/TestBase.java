@@ -19,10 +19,11 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import Pages.AppPage;
+import Pages.ContactPage;
+import Pages.HomePage;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import steps.AppPage;
-import steps.ContactPage;
-import steps.HomePage;
+
 
 public class TestBase {
     public static WebDriver driver;
