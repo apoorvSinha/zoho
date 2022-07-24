@@ -9,6 +9,6 @@ Feature: I am opening home page of our website and trying to do various login me
     Examples: 
       | valid_user               | valid_pwd    | successful       | verify     | title         |
       | apoorvlifeok@outlook.com | JUSTdance@96 | successfully     | verify     | Zoho Home     |
-      | valid                    | invalid      | not successfully | not verify | Zoho Accounts |
-      | invalid                  | valid        | not successfully | not verify | Zoho Accounts |
-      | invalid                  | invalid      | not successfully | not verify | Zoho Accounts |
+      #| valid                    | invalid      | not successfully | not verify | Zoho Accounts |
+      #| invalid                  | valid        | not successfully | not verify | Zoho Accounts |
+      #| invalid                  | invalid      | not successfully | not verify | Zoho Accounts |

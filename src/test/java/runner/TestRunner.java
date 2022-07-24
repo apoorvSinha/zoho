@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		publish = true,
 		dryRun=false,
-		features={"./src/test/resources/features/"},
+		features={"./src/test/resources/features/CRM_accounts_page.feature"},
 		glue="steps",
 		monochrome=true,
 		plugin={"pretty"}

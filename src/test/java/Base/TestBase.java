@@ -3,7 +3,7 @@ package Base;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.time.Duration;
-
+import java.util.List;
 import java.util.Properties;
 import java.util.logging.Level;
 
@@ -15,12 +15,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import steps.AppPage;
+import steps.ContactPage;
 import steps.HomePage;
 
 public class TestBase {
@@ -31,7 +32,9 @@ public class TestBase {
     public static App_log log = new App_log();
     public static Actions actions;
     public static HomePage homes;
-    
+    public static ContactPage contactPage;
+    public static AppPage applications;
+    public static ChromeOptions opt;
     
 
     public static void initDriver(){
@@ -47,12 +50,14 @@ public class TestBase {
         //load correct browser as per config file
         if(config.getProperty("browser").equalsIgnoreCase("chrome")){
             WebDriverManager.chromedriver().setup();
-            ChromeOptions opt = null;
             if(config.getProperty("headless").equalsIgnoreCase("yes")) {
             	opt = new ChromeOptions();
             	opt.addArguments("--headless");
+            	driver = new ChromeDriver(opt);
+            } else if(config.getProperty("headless").equalsIgnoreCase("no")) {
+            	driver = new ChromeDriver();
             }
-            driver = new ChromeDriver(opt);
+            
             
             App_log.logger.info("Chrome driver launched successfully");
         } else if (config.getProperty("browser").equalsIgnoreCase("edge")) {
@@ -83,6 +88,16 @@ public class TestBase {
 	public static void type(WebElement element, String value) {
 		element.sendKeys(value);
 		App_log.logger.log(Level.INFO, "Typing in: " + element + " entered value is: " + value);
+	}
+	
+	public static String[] getElementsFromList(List<WebElement> elems) {
+		String[] arr = new String[elems.size()];
+		int i=0;
+		for(WebElement elem: elems) {
+			arr[i] = elem.getText();
+			i++;
+		}
+		return arr;
 	}
 	/*
 	static WebElement dropDown;

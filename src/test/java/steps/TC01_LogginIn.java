@@ -51,6 +51,14 @@ public class TC01_LogginIn {
 
 	@And("I can {string} the applications on my home page")
 	public void i_can_the_applications_on_my_home_page(String string) {
+		TestBase.applications = new AppPage();
+
+	}
+	
+	@Given("client is on home page of applications")
+	public void client_is_on_home_page_of_applications() {
+		TestBase.applications.CheckNumberOfApps();
 
 	}
 }
+
