@@ -3,10 +3,8 @@ package steps;
 import Base.TestBase;
 import Pages.ContactPage;
 import io.cucumber.java.en.And;
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.junit.Test;
 
 public class TC02_CRM_create_accounts {
 
@@ -26,8 +24,7 @@ public class TC02_CRM_create_accounts {
 	}
 	@And("client enters Account information")
 	public void client_enters_account_information() {
-		TestBase.contactPage.enterContact();
-		TestBase.contactPage.enterFirstName();
+		TestBase.contactPage.enterContactInfo();
 	}
 	@And("client enters Address information")
 	public void client_enters_address_information() {

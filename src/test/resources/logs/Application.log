@@ -1,60 +1,60 @@
-Jul 24, 2022 12:15:37 PM Base.TestBase initDriver
+Jul 26, 2022 5:25:40 PM Base.TestBase initDriver
 INFO: Config file loaded
-Jul 24, 2022 12:15:40 PM Base.TestBase initDriver
+Jul 26, 2022 5:25:43 PM Base.TestBase initDriver
 INFO: Chrome driver launched successfully
-Jul 24, 2022 12:15:44 PM Base.TestBase initDriver
+Jul 26, 2022 5:25:45 PM Base.TestBase initDriver
 INFO: Navigating to: https://www.zoho.com/
-Jul 24, 2022 12:15:55 PM Base.TestBase click
+Jul 26, 2022 5:25:57 PM Base.TestBase click
 INFO: Clicking on: Proxy element for: DefaultElementLocator 'By.linkText: Sign in'
-Jul 24, 2022 12:15:55 PM Base.TestBase type
-INFO: Typing in: [[ChromeDriver: chrome on WINDOWS (bf78c6cfbc46f0b647ecd76328100325)] -> id: login_id] entered value is: apoorvlifeok@outlook.com
-Jul 24, 2022 12:15:55 PM Base.TestBase click
-INFO: Clicking on: [[ChromeDriver: chrome on WINDOWS (bf78c6cfbc46f0b647ecd76328100325)] -> xpath: //button[@id='nextbtn']]
-Jul 24, 2022 12:15:55 PM steps.HomePage enterEmail
+Jul 26, 2022 5:25:57 PM Base.TestBase type
+INFO: Typing in: [[ChromeDriver: chrome on WINDOWS (a9adfb2a3c41e27478eae297cfcaf440)] -> id: login_id] entered value is: apoorvlifeok@outlook.com
+Jul 26, 2022 5:25:57 PM Base.TestBase click
+INFO: Clicking on: [[ChromeDriver: chrome on WINDOWS (a9adfb2a3c41e27478eae297cfcaf440)] -> xpath: //button[@id='nextbtn']]
+Jul 26, 2022 5:25:57 PM Pages.HomePage enterEmail
 INFO: Entered email as apoorvlifeok@outlook.comsuccessfully
-Jul 24, 2022 12:16:35 PM steps.TC01_LogginIn i_enter_my_username_and_password
+Jul 26, 2022 5:26:37 PM steps.TC01_LogginIn i_enter_my_username_and_password
 INFO: Entered email is valid so password entry can be done
-Jul 24, 2022 12:16:35 PM Base.TestBase type
-INFO: Typing in: [[ChromeDriver: chrome on WINDOWS (bf78c6cfbc46f0b647ecd76328100325)] -> id: password] entered value is: JUSTdance@96
-Jul 24, 2022 12:16:45 PM Base.TestBase click
+Jul 26, 2022 5:26:37 PM Base.TestBase type
+INFO: Typing in: [[ChromeDriver: chrome on WINDOWS (a9adfb2a3c41e27478eae297cfcaf440)] -> id: password] entered value is: JUSTdance@96
+Jul 26, 2022 5:26:47 PM Base.TestBase click
 INFO: Clicking on: Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='nextbtn' and @class='btn blue']'
-Jul 24, 2022 12:16:48 PM steps.AppPage CheckNumberOfApps
+Jul 26, 2022 5:26:51 PM Pages.AppPage CheckNumberOfApps
 INFO: Apps on home page after successful login are: Bigin
-Jul 24, 2022 12:16:48 PM steps.AppPage CheckNumberOfApps
+Jul 26, 2022 5:26:51 PM Pages.AppPage CheckNumberOfApps
 INFO: Apps on home page after successful login are: Books
-Jul 24, 2022 12:16:48 PM steps.AppPage CheckNumberOfApps
+Jul 26, 2022 5:26:51 PM Pages.AppPage CheckNumberOfApps
 INFO: Apps on home page after successful login are: Calendar
-Jul 24, 2022 12:16:48 PM steps.AppPage CheckNumberOfApps
+Jul 26, 2022 5:26:51 PM Pages.AppPage CheckNumberOfApps
 INFO: Apps on home page after successful login are: Campaigns
-Jul 24, 2022 12:16:48 PM steps.AppPage CheckNumberOfApps
+Jul 26, 2022 5:26:51 PM Pages.AppPage CheckNumberOfApps
 INFO: Apps on home page after successful login are: Cliq
-Jul 24, 2022 12:16:48 PM steps.AppPage CheckNumberOfApps
+Jul 26, 2022 5:26:51 PM Pages.AppPage CheckNumberOfApps
 INFO: Apps on home page after successful login are: Connect
-Jul 24, 2022 12:16:48 PM steps.AppPage CheckNumberOfApps
+Jul 26, 2022 5:26:51 PM Pages.AppPage CheckNumberOfApps
 INFO: Apps on home page after successful login are: CRM
-Jul 24, 2022 12:16:48 PM steps.AppPage CheckNumberOfApps
+Jul 26, 2022 5:26:51 PM Pages.AppPage CheckNumberOfApps
 INFO: Apps on home page after successful login are: Desk
-Jul 24, 2022 12:16:48 PM steps.AppPage CheckNumberOfApps
+Jul 26, 2022 5:26:51 PM Pages.AppPage CheckNumberOfApps
 INFO: Apps on home page after successful login are: Invoice
-Jul 24, 2022 12:16:48 PM steps.AppPage CheckNumberOfApps
+Jul 26, 2022 5:26:51 PM Pages.AppPage CheckNumberOfApps
 INFO: Apps on home page after successful login are: Mail
-Jul 24, 2022 12:16:48 PM steps.AppPage CheckNumberOfApps
+Jul 26, 2022 5:26:51 PM Pages.AppPage CheckNumberOfApps
 INFO: Apps on home page after successful login are: Meeting
-Jul 24, 2022 12:16:48 PM steps.AppPage CheckNumberOfApps
+Jul 26, 2022 5:26:51 PM Pages.AppPage CheckNumberOfApps
 INFO: Apps on home page after successful login are: Projects
-Jul 24, 2022 12:16:48 PM steps.AppPage CheckNumberOfApps
+Jul 26, 2022 5:26:51 PM Pages.AppPage CheckNumberOfApps
 INFO: Apps on home page after successful login are: Sheet
-Jul 24, 2022 12:16:48 PM steps.AppPage CheckNumberOfApps
+Jul 26, 2022 5:26:51 PM Pages.AppPage CheckNumberOfApps
 INFO: Apps on home page after successful login are: Show
-Jul 24, 2022 12:16:48 PM steps.AppPage CheckNumberOfApps
+Jul 26, 2022 5:26:51 PM Pages.AppPage CheckNumberOfApps
 INFO: Apps on home page after successful login are: WorkDrive
-Jul 24, 2022 12:16:48 PM steps.AppPage CheckNumberOfApps
+Jul 26, 2022 5:26:51 PM Pages.AppPage CheckNumberOfApps
 INFO: Apps on home page after successful login are: Writer
-Jul 24, 2022 12:17:01 PM Base.TestBase click
+Jul 26, 2022 5:27:03 PM Base.TestBase click
 INFO: Clicking on: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='ea-app-container']/div/div/a/div[contains(text(), 'CRM')]'
-Jul 24, 2022 12:17:01 PM steps.AppPage navigateToCRM
+Jul 26, 2022 5:27:03 PM Pages.AppPage navigateToCRM
 INFO: Navigated to CRM home page
-Jul 24, 2022 12:17:02 PM Base.TestBase click
-INFO: Clicking on: [[ChromeDriver: chrome on WINDOWS (bf78c6cfbc46f0b647ecd76328100325)] -> link text: Contacts]
-Jul 24, 2022 12:17:04 PM Base.TestBase click
-INFO: Clicking on: [[ChromeDriver: chrome on WINDOWS (bf78c6cfbc46f0b647ecd76328100325)] -> xpath: //button[@data-zcqa='cv_createbtn']]
+Jul 26, 2022 5:27:04 PM Base.TestBase click
+INFO: Clicking on: [[ChromeDriver: chrome on WINDOWS (a9adfb2a3c41e27478eae297cfcaf440)] -> link text: Contacts]
+Jul 26, 2022 5:27:05 PM Base.TestBase click
+INFO: Clicking on: [[ChromeDriver: chrome on WINDOWS (a9adfb2a3c41e27478eae297cfcaf440)] -> xpath: //button[@data-zcqa='cv_createbtn']]
