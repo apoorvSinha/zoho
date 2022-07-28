@@ -1,60 +1,84 @@
-Jul 26, 2022 5:25:40 PM Base.TestBase initDriver
+Jul 27, 2022 5:45:34 PM Base.TestBase initDriver
 INFO: Config file loaded
-Jul 26, 2022 5:25:43 PM Base.TestBase initDriver
+Jul 27, 2022 5:45:36 PM Base.TestBase initDriver
 INFO: Chrome driver launched successfully
-Jul 26, 2022 5:25:45 PM Base.TestBase initDriver
+Jul 27, 2022 5:45:40 PM Base.TestBase initDriver
 INFO: Navigating to: https://www.zoho.com/
-Jul 26, 2022 5:25:57 PM Base.TestBase click
+Jul 27, 2022 5:45:51 PM Base.TestBase click
 INFO: Clicking on: Proxy element for: DefaultElementLocator 'By.linkText: Sign in'
-Jul 26, 2022 5:25:57 PM Base.TestBase type
-INFO: Typing in: [[ChromeDriver: chrome on WINDOWS (a9adfb2a3c41e27478eae297cfcaf440)] -> id: login_id] entered value is: apoorvlifeok@outlook.com
-Jul 26, 2022 5:25:57 PM Base.TestBase click
-INFO: Clicking on: [[ChromeDriver: chrome on WINDOWS (a9adfb2a3c41e27478eae297cfcaf440)] -> xpath: //button[@id='nextbtn']]
-Jul 26, 2022 5:25:57 PM Pages.HomePage enterEmail
+Jul 27, 2022 5:45:51 PM Base.TestBase type
+INFO: Typing in: [[ChromeDriver: chrome on WINDOWS (605d08e90ab377cddaf8a3ef6f397c39)] -> id: login_id] entered value is: apoorvlifeok@outlook.com
+Jul 27, 2022 5:45:51 PM Base.TestBase click
+INFO: Clicking on: [[ChromeDriver: chrome on WINDOWS (605d08e90ab377cddaf8a3ef6f397c39)] -> xpath: //button[@id='nextbtn']]
+Jul 27, 2022 5:45:51 PM Pages.HomePage enterEmail
 INFO: Entered email as apoorvlifeok@outlook.comsuccessfully
-Jul 26, 2022 5:26:37 PM steps.TC01_LogginIn i_enter_my_username_and_password
+Jul 27, 2022 5:46:31 PM steps.TC01_LogginIn i_enter_my_username_and_password
 INFO: Entered email is valid so password entry can be done
-Jul 26, 2022 5:26:37 PM Base.TestBase type
-INFO: Typing in: [[ChromeDriver: chrome on WINDOWS (a9adfb2a3c41e27478eae297cfcaf440)] -> id: password] entered value is: JUSTdance@96
-Jul 26, 2022 5:26:47 PM Base.TestBase click
+Jul 27, 2022 5:46:31 PM Base.TestBase type
+INFO: Typing in: [[ChromeDriver: chrome on WINDOWS (605d08e90ab377cddaf8a3ef6f397c39)] -> id: password] entered value is: JUSTdance@96
+Jul 27, 2022 5:46:42 PM Base.TestBase click
 INFO: Clicking on: Proxy element for: DefaultElementLocator 'By.xpath: //button[@id='nextbtn' and @class='btn blue']'
-Jul 26, 2022 5:26:51 PM Pages.AppPage CheckNumberOfApps
+Jul 27, 2022 5:46:45 PM Pages.AppPage CheckNumberOfApps
 INFO: Apps on home page after successful login are: Bigin
-Jul 26, 2022 5:26:51 PM Pages.AppPage CheckNumberOfApps
+Jul 27, 2022 5:46:45 PM Pages.AppPage CheckNumberOfApps
 INFO: Apps on home page after successful login are: Books
-Jul 26, 2022 5:26:51 PM Pages.AppPage CheckNumberOfApps
+Jul 27, 2022 5:46:45 PM Pages.AppPage CheckNumberOfApps
 INFO: Apps on home page after successful login are: Calendar
-Jul 26, 2022 5:26:51 PM Pages.AppPage CheckNumberOfApps
+Jul 27, 2022 5:46:45 PM Pages.AppPage CheckNumberOfApps
 INFO: Apps on home page after successful login are: Campaigns
-Jul 26, 2022 5:26:51 PM Pages.AppPage CheckNumberOfApps
+Jul 27, 2022 5:46:45 PM Pages.AppPage CheckNumberOfApps
 INFO: Apps on home page after successful login are: Cliq
-Jul 26, 2022 5:26:51 PM Pages.AppPage CheckNumberOfApps
+Jul 27, 2022 5:46:45 PM Pages.AppPage CheckNumberOfApps
 INFO: Apps on home page after successful login are: Connect
-Jul 26, 2022 5:26:51 PM Pages.AppPage CheckNumberOfApps
+Jul 27, 2022 5:46:45 PM Pages.AppPage CheckNumberOfApps
 INFO: Apps on home page after successful login are: CRM
-Jul 26, 2022 5:26:51 PM Pages.AppPage CheckNumberOfApps
+Jul 27, 2022 5:46:45 PM Pages.AppPage CheckNumberOfApps
 INFO: Apps on home page after successful login are: Desk
-Jul 26, 2022 5:26:51 PM Pages.AppPage CheckNumberOfApps
+Jul 27, 2022 5:46:45 PM Pages.AppPage CheckNumberOfApps
 INFO: Apps on home page after successful login are: Invoice
-Jul 26, 2022 5:26:51 PM Pages.AppPage CheckNumberOfApps
+Jul 27, 2022 5:46:45 PM Pages.AppPage CheckNumberOfApps
 INFO: Apps on home page after successful login are: Mail
-Jul 26, 2022 5:26:51 PM Pages.AppPage CheckNumberOfApps
+Jul 27, 2022 5:46:45 PM Pages.AppPage CheckNumberOfApps
 INFO: Apps on home page after successful login are: Meeting
-Jul 26, 2022 5:26:51 PM Pages.AppPage CheckNumberOfApps
+Jul 27, 2022 5:46:45 PM Pages.AppPage CheckNumberOfApps
 INFO: Apps on home page after successful login are: Projects
-Jul 26, 2022 5:26:51 PM Pages.AppPage CheckNumberOfApps
+Jul 27, 2022 5:46:45 PM Pages.AppPage CheckNumberOfApps
 INFO: Apps on home page after successful login are: Sheet
-Jul 26, 2022 5:26:51 PM Pages.AppPage CheckNumberOfApps
+Jul 27, 2022 5:46:45 PM Pages.AppPage CheckNumberOfApps
 INFO: Apps on home page after successful login are: Show
-Jul 26, 2022 5:26:51 PM Pages.AppPage CheckNumberOfApps
+Jul 27, 2022 5:46:45 PM Pages.AppPage CheckNumberOfApps
 INFO: Apps on home page after successful login are: WorkDrive
-Jul 26, 2022 5:26:51 PM Pages.AppPage CheckNumberOfApps
+Jul 27, 2022 5:46:45 PM Pages.AppPage CheckNumberOfApps
 INFO: Apps on home page after successful login are: Writer
-Jul 26, 2022 5:27:03 PM Base.TestBase click
+Jul 27, 2022 5:46:57 PM Base.TestBase click
 INFO: Clicking on: Proxy element for: DefaultElementLocator 'By.xpath: //div[@class='ea-app-container']/div/div/a/div[contains(text(), 'CRM')]'
-Jul 26, 2022 5:27:03 PM Pages.AppPage navigateToCRM
+Jul 27, 2022 5:46:57 PM Pages.AppPage navigateToCRM
 INFO: Navigated to CRM home page
-Jul 26, 2022 5:27:04 PM Base.TestBase click
-INFO: Clicking on: [[ChromeDriver: chrome on WINDOWS (a9adfb2a3c41e27478eae297cfcaf440)] -> link text: Contacts]
-Jul 26, 2022 5:27:05 PM Base.TestBase click
-INFO: Clicking on: [[ChromeDriver: chrome on WINDOWS (a9adfb2a3c41e27478eae297cfcaf440)] -> xpath: //button[@data-zcqa='cv_createbtn']]
+Jul 27, 2022 5:46:58 PM Base.TestBase click
+INFO: Clicking on: [[ChromeDriver: chrome on WINDOWS (605d08e90ab377cddaf8a3ef6f397c39)] -> link text: Contacts]
+Jul 27, 2022 5:46:59 PM Base.TestBase click
+INFO: Clicking on: [[ChromeDriver: chrome on WINDOWS (605d08e90ab377cddaf8a3ef6f397c39)] -> xpath: //button[@data-zcqa='cv_createbtn']]
+Jul 27, 2022 5:47:00 PM Base.TestBase type
+INFO: Typing in: [[ChromeDriver: chrome on WINDOWS (605d08e90ab377cddaf8a3ef6f397c39)] -> css selector: #Crm_Contacts_FIRSTNAME_LInput] entered value is: Mr. Ivanka
+Jul 27, 2022 5:47:00 PM Base.TestBase type
+INFO: Typing in: [[ChromeDriver: chrome on WINDOWS (605d08e90ab377cddaf8a3ef6f397c39)] -> css selector: #Crm_Contacts_LASTNAME_LInput] entered value is: Trump
+Jul 27, 2022 5:47:00 PM Base.TestBase click
+INFO: Clicking on: [[ChromeDriver: chrome on WINDOWS (605d08e90ab377cddaf8a3ef6f397c39)] -> xpath: //lyte-drop-body/lyte-drop-item[@data-value='Online Store']]
+Jul 27, 2022 5:47:01 PM Base.TestBase type
+INFO: Typing in: [[ChromeDriver: chrome on WINDOWS (605d08e90ab377cddaf8a3ef6f397c39)] -> css selector: #Crm_Contacts_ACCOUNTID] entered value is: King (Sample)
+Jul 27, 2022 5:47:01 PM Base.TestBase type
+INFO: Typing in: [[ChromeDriver: chrome on WINDOWS (605d08e90ab377cddaf8a3ef6f397c39)] -> css selector: #Crm_Contacts_TITLE_LInput] entered value is: Shri
+Jul 27, 2022 5:47:01 PM Base.TestBase type
+INFO: Typing in: [[ChromeDriver: chrome on WINDOWS (605d08e90ab377cddaf8a3ef6f397c39)] -> css selector: #Crm_Contacts_EMAIL_LInput] entered value is: Ivanka.trump@usa.com
+Jul 27, 2022 5:47:01 PM Base.TestBase type
+INFO: Typing in: [[ChromeDriver: chrome on WINDOWS (605d08e90ab377cddaf8a3ef6f397c39)] -> css selector: #Crm_Contacts_DEPARTMENT_LInput] entered value is: Developer
+Jul 27, 2022 5:47:01 PM Base.TestBase type
+INFO: Typing in: [[ChromeDriver: chrome on WINDOWS (605d08e90ab377cddaf8a3ef6f397c39)] -> css selector: #Crm_Contacts_PHONE_LInput] entered value is: 123423232423
+Jul 27, 2022 5:47:01 PM Base.TestBase type
+INFO: Typing in: [[ChromeDriver: chrome on WINDOWS (605d08e90ab377cddaf8a3ef6f397c39)] -> css selector: #Crm_Contacts_HOMEPHONE_LInput] entered value is: 12312312
+Jul 27, 2022 5:47:01 PM Base.TestBase type
+INFO: Typing in: [[ChromeDriver: chrome on WINDOWS (605d08e90ab377cddaf8a3ef6f397c39)] -> css selector: #Crm_Contacts_OTHERPHONE_LInput] entered value is: 324234234
+Jul 27, 2022 5:47:01 PM Base.TestBase type
+INFO: Typing in: [[ChromeDriver: chrome on WINDOWS (605d08e90ab377cddaf8a3ef6f397c39)] -> css selector: #Crm_Contacts_FAX_LInput] entered value is: 234234234
+Jul 27, 2022 5:47:02 PM Base.TestBase type
+INFO: Typing in: [[ChromeDriver: chrome on WINDOWS (605d08e90ab377cddaf8a3ef6f397c39)] -> css selector: #Crm_Contacts_MOBILE_LInput] entered value is: 23423424

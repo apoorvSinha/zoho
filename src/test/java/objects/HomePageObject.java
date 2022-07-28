@@ -19,3 +19,6 @@ public class HomePageObject {
 	public WebElement email_invalid;
 	
 }
+
+
+
