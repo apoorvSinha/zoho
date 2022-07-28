@@ -1,9 +1,10 @@
 package Pages;
 
-import Base.TestBase;
-import objects.ContactPageObject;
 import org.junit.Assert;
 import org.openqa.selenium.support.PageFactory;
+
+import Base.TestBase;
+import objects.ContactPageObject;
 import utilities.ExcelReader;
 
 public class ContactPage extends TestBase {
@@ -26,57 +27,65 @@ public class ContactPage extends TestBase {
             
             //enter first name
             String fname = data.getCellData(sheetName.trim(), "First Name", row);
-            contact.first_name.sendKeys(fname);
+            type(contact.first_name,fname);
             
             //enter last name
             String lname = data.getCellData(sheetName.trim(), "Last Name", row);
-            contact.last_name.sendKeys(lname);
+            type(contact.last_name, lname);
             
             //lead source
             contact.pre_lead_source.click();
             String lead_source = data.getCellData(sheetName.trim(), "Lead Source", row);
             if(lead_source.equalsIgnoreCase("Online Store")) {
             	actions.moveToElement(contact.lead_source_OnlineStore);
-            	contact.lead_source_OnlineStore.click();
+            	click(contact.lead_source_OnlineStore);
             }
             
             //account name
             String account_Name = data.getCellData(sheetName.trim(), "Account Name", row);
-            contact.account_name.sendKeys(account_Name);
+            type(contact.account_name, account_Name);
             
             //title
             String Title = data.getCellData(sheetName.trim(), "Title", row);
-            contact.title.sendKeys(Title);
+            type(contact.title, Title);
             
             //email
             String email_input = data.getCellData(sheetName.trim() , "Email", row);
-            contact.email.sendKeys(email_input);
+            type(contact.email, email_input);
             
             //Department
-            String department_input = data.getCellData(sheetName.trim(), "Department", rowNum);
-            contact.department.sendKeys(department_input);
+            String department_input = data.getCellData(sheetName.trim(), "Department", row);
+            type(contact.department, department_input);
             
             //Phone
             String phone_input = data.getCellData(sheetName, "Phone", row);
-            contact.phone.sendKeys(phone_input);
+            type(contact.phone, phone_input);
             
             //home phone
             String home_phone_input = data.getCellData(sheetName, "Home Phone", row);
-            contact.home_phone.sendKeys(home_phone_input);
+            type(contact.home_phone, home_phone_input);
             
             //Other phone
             String otherPhone_input = data.getCellData(sheetName, "Other Phone", row);
-            contact.other_phone.sendKeys(otherPhone_input);
+            type(contact.other_phone, otherPhone_input);
             
             //fax
             String fax_input = data.getCellData(sheetName, "Fax", row);
-            contact.fax.sendKeys(fax_input);
+            type(contact.fax, fax_input);
+            
+            //moving page down
+            page_down();
+            
             
             //mobile
             String mobile_input = data.getCellData(sheetName, "Mobile", row);
-            contact.mobile.sendKeys(mobile_input);
+            type(contact.mobile, mobile_input);
+            
             
             //dateOfBirth
+            String DOB_dd_mm_yyyy = data.getCellData(sheetName, "Date of Birth", row);
+            String dob[] = DOB_dd_mm_yyyy.split("/");
+            
             
     	}    
     }
